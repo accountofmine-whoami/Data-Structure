@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class BigInteger
 {
     public static final String QUIT_COMMAND = "quit";
-    public static final String MSG_INVALID_INPUT = "ÀÔ·ÂÀÌ Àß¸øµÇ¾ú½À´Ï´Ù.";
+    public static final String MSG_INVALID_INPUT = "ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ß¸ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.";
  
     // implement this
     public static final Pattern EXPRESSION_PATTERN = Pattern.compile("");
@@ -128,7 +128,7 @@ public class BigInteger
     			}else{
     				big2.sign = '+';
     				big2.magnitude = new int[tl];
-    			} //determinig the signs, length of big2.
+    			} //determining the signs, length of big2.
     			
     			
     			int i, borrow = 0;
